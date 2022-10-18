@@ -1,0 +1,59 @@
+// global *.scss
+
+@import 'global/reset';
+@import 'global/vars';
+@import 'global/mixins';
+
+// magnific-popup *.scss
+
+@import 'magnific-popup/magnific-popup';
+
+// start *.scss
+
+@import 'start/start-page';
+@import 'start/button-ripple-effect';
+@import 'start/flight-effect';
+@import 'start/slogan';
+
+// app *.scss
+
+@import 'app/sidebar';
+@import 'app/app';
+@import 'app/search';
+@import 'app/flag';
+@import 'app/settings-block';
+@import 'app/cards-block';
+@import 'app/welcome';
+@import 'app/calculating';
+@import 'app/ready-recipes-block';
+@import 'app/recipes-info';
+@import 'app/cuisines-not-found';
+@import 'app/favorites-block';
+@import 'app/cart-block';
+
+// error-404 *.scss
+
+@import 'error-404/error-404';
+
+// media *.scss
+
+@import 'media/media';
+
+body {
+    min-width: 600px;
+    max-width: 2560px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.page-container {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.content-container {
+    margin: 0 auto;
+}

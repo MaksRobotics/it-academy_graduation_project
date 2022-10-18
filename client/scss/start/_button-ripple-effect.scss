@@ -1,0 +1,37 @@
+.btn_ripple-effect {
+    display: block;
+    width: 200px;
+    height: 100%;
+    padding: 15px 5px;
+    background-color:pink;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(136, 135, 135, 0.514);
+    color: black;
+    position:relative;
+    overflow: hidden;
+}
+
+.btn_ripple-effect span {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.btn_ripple-effect::before {
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    width: 0.01px;
+    height: 0.01px;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.btn_ripple-effect:hover::before {
+    width: 300px;
+    height: 300px;
+}

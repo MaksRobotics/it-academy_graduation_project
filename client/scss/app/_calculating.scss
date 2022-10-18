@@ -1,0 +1,94 @@
+@import '../global/vars';
+
+.calculating {
+    display: flex;
+	justify-content: center;
+	text-align: center;
+    margin-top: 10px;
+    margin-left: 280px;
+	transition: all 0.5s ease;
+    &_position {
+		margin-left: 0px;
+	}
+    &__container {
+        background-color: $white-trans;
+        max-width: 1200px;
+    }
+    &__title {
+        padding: 15px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__field {
+        width: 100%;
+        margin-top: 5px;
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__choose {
+        position: relative;
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        margin-bottom: 35px;
+        &_medium {
+            width: 650px;
+            justify-content: space-between;
+            margin: 30px auto 35px auto;
+        }
+        &_big {
+            width: 930px;
+            justify-content: space-between;
+            margin: 30px auto 0 auto;
+        }
+    }
+    &__choose-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 50px;
+        margin: 0 5px;
+        padding: 0 10px;
+        background: #fff;
+        box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+        border: none;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        outline: 0;
+        transition: .3s all;
+        &_active {
+            color: #fff;
+            background-color: $green-ligth;
+        }
+    }
+    &__divider {
+        width: 550px;
+        height: 1px;
+        margin: 30px auto;
+        background-color: $black-transp;
+    }
+    &__total {
+        width: 550px;
+        margin: 0 auto 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__result {
+        background-color: $gray-transp-mid;
+        font-size: 18px;
+        font-weight: 700;
+        color: $blue-sidebar;
+        padding: 7px;
+        border: 3px solid $green-ligth;
+        border-radius: 15px;
+    }
+    & span {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,20 @@
+.wrapper-typesOfCuisines {
+	margin-left: 280px;
+    transition: all 0.5s ease;
+    &_position {
+		margin-left: 0px;
+	}
+}
+
+.typesOfCuisines {
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    &__item_hidden {
+        display: none;
+    }
+    &__img {
+        width: 75px;
+        height: 75px;
+    }
+}

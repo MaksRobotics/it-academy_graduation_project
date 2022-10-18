@@ -1,0 +1,35 @@
+.wrapper-search {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 280px;
+	transition: all 0.5s ease;
+	&_position {
+		margin-left: 0px;
+	}
+}
+.search {
+	width: 100%;
+	max-width: 500px;
+	background: $white-trans;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	padding: 5px 10px;
+	&__input {
+		background: transparent;
+		flex: 1;
+		border: 0;
+		outline: none;
+		padding: 10px 15px;
+		font-size: 22px;
+		font-weight: 500;
+		color: $blue-sidebar;
+		&::placeholder {
+			color: rgb(82, 77, 77);
+		}
+	}
+	&__button-img {
+		width: 50px;
+	}
+}

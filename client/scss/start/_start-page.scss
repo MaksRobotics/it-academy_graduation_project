@@ -1,0 +1,180 @@
+@import '../global/vars';
+
+.wrapper {
+    padding: 60px 0 22px;
+    &__select-block {
+        margin: 25px auto;
+    }
+    &__btn-ripple-effect {
+        margin: 0 auto;
+    }
+}
+
+.start {
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../images/images/start_page/cooking_bg.jpg') top / cover no-repeat;
+        z-index: -1;
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        min-height: 100%;
+    }
+    &__logo-img {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+.select-block {
+    background-color: #fff;
+    width: 400px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 25px 50px 100px rgba(179, 174, 174, 0.267);
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    &__content_active {
+        border: 3px solid $gray-shadow;
+        box-shadow: 0 3px 10px $gray-shadow;
+    }
+    &__item {
+        padding: 10px;
+        cursor: pointer;
+    }
+    &__recipes-items {
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    &__recipes-content {
+        display: flex;
+        transform: translateX(0px);
+    }
+    &__recipes-img_belarus {
+    background: url('../images/images/start_page/type_of_food/belarus_transp.png') top / cover no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    }
+    &__recipes-img_russia {
+        background: url('../images/images/start_page/type_of_food/russia_transp.png') top / cover no-repeat;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    &__recipes-img_ukraine {
+        background: url('../images/images/start_page/type_of_food/ukraine_transp.png') top / cover no-repeat;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    &__recipes-img_lithuania {
+        background: url('../images/images/start_page/type_of_food/lithuania_transp.png') top / cover no-repeat;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    &__recipes-img_poland {
+        background: url('../images/images/start_page/type_of_food/poland_transp.png') top / cover no-repeat;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    &__recipes-img_vegan {
+        background: url('../images/images/start_page/type_of_food/vegan_transp.png') top / cover no-repeat;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    &__login-items_posittion {
+        margin: 0 auto;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fa-solid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 42px;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.fa-solid:hover {
+    opacity: 1;
+}
+
+.btn-prev {
+    left: 10px;
+}
+
+.btn-next {
+    right: 10px;
+}
+
+.form {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    &__login {
+        display: block;
+        width: 280px;
+        height: 50px;
+        margin: 30px auto 15px;
+        background: $white;
+        box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+        border: none;
+        font-size: 18px;
+        text-align: center;
+        outline: 0;
+    }
+    &__email {
+        display: block;
+        width: 280px;
+        height: 50px;
+        margin: 30px auto 15px;
+        background: $white;
+        box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+        border: none;
+        font-size: 18px;
+        text-align: center;
+        outline: 0;
+    }
+}

@@ -1,0 +1,73 @@
+.error-404 {
+	background: black;
+	min-height: 100vh;
+    display: flex;
+	flex-direction: column;
+	gap: 1em;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-underline {
+	color:#6e6e6e;
+	background:transparent;
+	padding: 0.5em 0.75em;
+	border-bottom:2px solid white;
+	text-decoration:none;
+	transition: all 250ms ease;
+	cursor:pointer;
+	&:hover {
+		color:white;
+		background:rgba(white,0.1);
+	}
+}
+
+.clr-grey {
+	color:#6e6e6e;
+	border-color:#6e6e6e;
+}
+
+.not_found {
+	position:relative;
+	color:#ff0000;
+	font-size:10rem;
+	font-weight:bold;
+	font-family:Arial;
+	mix-blend-mode:screen;
+	letter-spacing:15px;
+	&::before, &::after {
+		content:attr(data-text);
+		position:absolute;
+		inset:0;
+		width:100%;
+		height:100%;
+		mix-blend-mode:screen;
+	}
+	&::before {
+		color:#00ff00;
+		animation: glitch 4s infinite;
+	}
+	&::after {
+		color:#0000ff;
+	}
+	filter:drop-shadow(0 0 50px white);
+}
+
+@keyframes glitch {
+	0%, 49% {
+		translate: 0 0;
+	}
+	50% {
+		translate: 1px 0px;
+	}
+	51% {
+		translate: -7px 0px;
+	}
+	52% {
+		translate: 2px 0px;
+	}
+	53%, 100% {
+		translate: 0 0;
+	}
+}

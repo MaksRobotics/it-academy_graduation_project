@@ -1,0 +1,429 @@
+@media (max-width: 1325px) {
+    .calculating {
+        &__container {
+            max-width: 700px;
+        }
+        &__title {
+            font-size: 26px;
+        }
+        &__choose-item {
+            width: 125px;
+            height: 45px;
+        }
+        &__choose_medium {
+            width: 550px;
+        }
+        &__choose_big {
+            width: 700px;
+        }
+    }
+    .container-cart-block {
+        width: 80%;
+    }
+    .cart-block {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .cards-body {
+        justify-content: center;
+        max-width: 700px;
+    }
+    .card-box {
+        max-width: 210px;
+    }
+    .card-img {
+        width: 180px;
+        height: 125px;
+    }
+    .card-desc {
+        font-size: 12px;
+    }
+    .select-recipes {
+        font-size: 12px;
+        &__item {
+            padding: 5px 45px 5px 45px;
+        }
+    }
+    .ready-recipes__card {
+        width: 650px;
+    }
+    .ready-recipes__thumbnail {
+        height: 240px;
+        width: 380px;
+    }
+    .ready-recipes__right-block {
+        margin-left: 450px;
+    }
+    .ready-recipes__text {
+        font-size: 0.8rem;
+    }
+    .ready-recipes__calories-number {
+        bottom: 45px;
+    }
+    .ready-recipes__calories-units {
+        bottom: 23px;
+    }
+    .container-cart-block {
+        width: 80%;
+    }
+    .cart-block {
+        width: 95%;
+    }
+    .cart-block__edit-list input[type=text] {
+        font-size: 1.0em;
+    }
+    .info-recipes {
+        max-width: 675px;
+        &__headers-meal {
+            font-size: 18px;
+        }
+        &__headers-dish {
+            font-size: 26px;
+        }
+    }
+    .info-recipes__right_row1 .info-recipes__popup-img {
+        height: 245px;
+    }
+    .recipe-icon_position {
+        left: 545px;
+        &-cart {
+            left: 485px;
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .wrapper-search {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-typesOfCuisines {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-welcome {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-cards {
+        margin-left: 220px;
+        &__position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-ready-recipes {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-cart {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-cards-favorite {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-info-recipes {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .typesOfCuisines__img {
+        width: 55px;
+        height: 55px;
+    } 
+    .welcome__img {
+        width: 450px;
+        height: 250px;
+    }
+    .search {
+        max-width: 400px;
+    }
+    .wrapper-sidebar .sidebar {
+        width: 220px;
+        &__logo-img {
+            width: 100px;
+            height: 100px;
+        }
+        &__welcome {
+            font-size: 20px;
+        }
+    }
+    .container-cart-block {
+        width: 85%;
+    }
+    .list {
+        &__item-link {
+            font-size: 14px;
+        }
+    }
+
+    .navbar{
+        margin-left: 220px;
+        &__hamburger {
+            width: 45px;
+            height: 40px;
+            &-link {
+                font-size: 30px;
+            }
+        }
+    }
+    .calculating {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+    .wrapper-settings {
+        margin-left: 220px;
+        &_position {
+            margin-left: 0px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .cards-body {
+        max-width: 470px;
+        justify-content: center;
+    }
+    .calculating {
+        &__container {
+            max-width: 500px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__choose-item {
+            width: 100px;
+            height: 45px;
+        }
+        &__choose_medium {
+            width: 400px;
+        }
+        &__choose_big {
+            width: 500px;
+        }
+        &__divider {
+            width: 400px;
+        }
+        &__total {
+            width: 450px;
+        }
+    }
+    .info-recipes {
+        max-width: 400px;
+    }
+    .container-info-recipes {
+        display: block;
+    }
+    .info-recipes__right_row1 {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .info-recipes__right_row1 img {
+        height: 200px;
+        width: 100%;
+    }
+    .info-recipes__right_row2 {
+        margin-top: 10px;
+    }
+    .info-recipes__left_row1 {
+        margin-top: 10px;
+    }
+    .info-recipes__left_row2 {
+        margin-top: 10px;
+    }
+    .recipe-icon_position {
+        left: 275px;
+    }
+    .recipe-icon_position-cart {
+        left: -15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .ready-recipes__card {
+        min-height: 460px;
+        width: 365px;
+        margin: 25px auto 0 auto;
+    }
+    .ready-recipes__thumbnail {
+        top: 20px;
+        left: 32px;
+        height: 192px;
+        width: 300px;
+    }
+    .ready-recipes__right-block {
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ready-recipes__text {
+        display: none;
+    }
+    .ready-recipes__title {
+        padding: 25px 0;
+        font-size: 1.8rem;
+
+    }
+    .ready-recipes__period-of-eating {
+        display: none;
+    }
+    .ready-recipes__separator {
+        display: none;
+    }
+    .ready-recipes__icons {
+        position: absolute;
+        bottom: 150px;
+        left: 112px;
+    }
+    .ready-recipes__fab {
+        bottom: 50px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .start__logo-img {
+        width: 100px;
+        height: 100px;
+    }
+    .slogan {
+        font-size: 36px;
+    }
+    .select-block {
+        width: 325px;
+        &__items {
+            font-size: 16px;
+        }
+    }
+    .btn_ripple-effect {
+        width: 170px;
+        font-size: 14px;
+    }
+    .form {
+        &__login {
+            width: 250px;
+            font-size: 16px;
+            height: 45px;
+        }
+        &__email {
+            width: 250px;
+            font-size: 16px;
+            height: 45px;
+        }
+    }
+    .welcome {
+        display: none;
+    }
+    .typesOfCuisines__img {
+        width: 50px;
+        height: 50px;
+    }
+    .search {
+        max-width: 350px;
+        margin-top: 45px;
+    }
+    .settings {
+        height: 415px;
+        width: 325px;
+    }
+    .checkbox-block__item {
+        width: 125px;
+        height: 125px;
+    }
+    .calculating__title {
+        font-size: 20px;
+    }  
+    .calculating__container {
+        max-width: 365px;
+    }
+    .calculating__choose {
+        flex-wrap: wrap;
+        &-item {
+            margin-top: 5px;
+        }
+        &_medium {
+            max-width: 365px;
+        }
+        &_big {
+            max-width: 365px;
+        }
+    }
+    .calculating__choose_big {
+        width: 390px;
+    }
+    .calculating__divider {
+        width: 365px;
+    }
+    .calculating__total {
+        width: 365px;
+        justify-content: center;
+    }
+    .cards-body {
+        max-width: 310px;
+    }
+    .card-box {
+        max-width: 250px;
+    }
+    .card-img {
+        width: 210px;
+        height: 135px;
+    }
+    .select-recipes {
+        flex-direction: column;
+        align-items: center;
+        &__item {
+            margin-left: 0;
+            margin-bottom: 10px;
+            width: 200px;
+            font-size: 18px;
+        }
+    }
+    .container-cart-block {
+        width: 95%;
+    }
+}
+
+@media (max-width: 650px) {
+    .card-box {
+        padding: 25px;
+    }
+    .card-omg {
+        width: 130px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-subtitle {
+        font-size: 15px;
+    }
+    .info-recipes {
+        max-width: 360px;
+    }
+    .recipe-icon_position {
+        left: 247px;
+    }
+    .recipe-icon_position-cart {
+        left: -31px;
+    }
+}

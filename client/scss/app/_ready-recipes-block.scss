@@ -1,0 +1,172 @@
+.wrapper-ready-recipes {
+    position: relative;
+	margin-left: 280px;
+    padding-top: 10px;
+    transition: all 0.5s ease;
+    &_position {
+		margin-left: 0px;
+	}
+}
+
+.select-recipes {
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    &__item {
+        padding: 5px 55px 5px 45px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.75);
+        margin-left: 35px;
+        &_active {
+            background-color: gray;
+            color: white;
+        }
+    }
+} 
+
+.ready-recipes {
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    &__card {
+        position: relative;
+        min-height: 420px;
+        width: 830px;
+        margin: 50px auto 0 auto;
+        background-color: #FFF;
+        -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    }
+    &__thumbnail {
+        float: left;
+        position: relative;
+        left: 30px;
+        top: -30px;
+        height: 280px;
+        width: 450px;
+        -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+        overflow: hidden;
+        & img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: auto;
+            width: 100%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__right-block {
+        margin-left: 530px;
+        margin-right: 20px;
+    }
+    &__title {
+        padding: 12px 0 7px;
+        font-size: 1.3rem;
+        color: #4B4B4B;
+        & a {
+            color: #4B4B4B;
+        }
+        & a:hover {
+            color: rgb(5, 68, 104);
+        }
+    }
+    &__period-of-eating {
+        background-color: #c3c3c3;
+        height: 50px;
+        width: 70px;
+        border-radius: 20px;
+        margin: 0 auto;
+        & img {
+            padding: 2px;
+            margin-left: 12px;
+            float: left;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+    }
+    &__separator {
+        margin-top: 10px;
+        border: 1px solid #C3C3C3;
+    }
+    &__text {
+        min-height: 240px;
+        text-align: justify;
+        padding-top: 10px;
+        font-size: 0.95rem;
+        line-height: 150%;
+        color: #4B4B4B;
+    }
+    &__calories-number {
+        position: absolute;
+        left: 30px;
+        bottom: 25px;
+        font-size: 6rem;
+        color: #C3C3C3;
+    }
+    &__calories-units {
+        position: absolute;
+        left: 30px;
+        bottom: 12px;
+        font-size: 2rem;
+        color: #C3C3C3;
+    }
+    &__icons {
+        margin-top: 40px;
+        margin-left: -90px;
+        margin-bottom: 8px;
+        & li {
+            font-size: 20px;
+            display: inline;
+            list-style: none;
+            padding-right: 40px;
+            color: #7B7B7B;
+          }
+    }
+    &__fab {
+        position: absolute;
+        right: 50px;
+        bottom: -40px;
+        box-sizing: border-box;
+        width: 80px;
+        height: 80px;
+        color: white;
+        border-radius: 50%;
+        -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+        & img {
+            width: 80px;
+            height: 80px;
+        }
+      }
+}
+
+.ready-recipes_show {
+    display: block;
+}
+
+.ready-recipes_hide {
+    display: none;
+}
+
+.ready-recipes_fade {
+    animation-name: recipes_fade;
+    animation-duration: 1s;
+}
+
+@keyframes recipes_fade {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}

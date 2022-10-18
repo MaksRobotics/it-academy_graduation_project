@@ -1,0 +1,20 @@
+.wrapper-welcome {
+    margin-top: 25px;
+    margin-left: 280px;
+    transition: all 0.5s ease;
+    &_position {
+        margin-left: 0px;
+    }
+}
+
+.welcome {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+    &__img {
+        width: 600px;
+        height: 350px;
+        border-radius: 15px;
+    }
+}

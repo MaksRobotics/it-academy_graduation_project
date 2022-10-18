@@ -1,0 +1,44 @@
+.app {
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../images/images/pages/application/app-bg_10.jpg') top / cover no-repeat;
+        z-index: -1;
+    }
+    &__bg_blue {
+        background: url('../images/images/pages/application/app-bg_5.jpg') top / cover no-repeat;
+    }
+    &__bg_laptop {
+        background: url('../images/images/pages/application/app-bg_8.jpg') top / cover no-repeat;
+    }
+    &__bg_spaghetti {
+        background: url('../images/images/pages/application/app-bg_9.jpg') top / cover no-repeat;
+    }
+    &__bg_croissant {
+        background: url('../images/images/pages/application/app-bg_7.jpg') top / cover no-repeat;
+    }
+    &__bg_honey {
+        background: url('../images/images/pages/application/app-bg_6.jpg') top / cover no-repeat;
+    }
+    &__bg_candy {
+        background: url('../images/images/pages/application/app-bg_4.jpg') top / cover no-repeat;
+    }
+    &__bg_cookie {
+        background: url('../images/images/pages/application/app-bg_3.jpg') top / cover no-repeat;
+    }
+    &__bg_breakfast {
+        background: url('../images/images/pages/application/app-bg_2.jpg') top / cover no-repeat;
+    }
+    &__bg_seeds {
+        background: url('../images/images/pages/application/app-bg_1.jpg') top / cover no-repeat;
+    }
+    &__bg_beries {
+        background: url('../images/images/pages/application/app-bg_11.jpg') top / cover no-repeat;
+    }
+    &__bg_dark {
+        background: url('../images/images/pages/application/app-bg_12.jpg') top / cover no-repeat;
+    }
+}

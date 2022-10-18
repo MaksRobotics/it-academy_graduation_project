@@ -1,0 +1,122 @@
+:root
+{
+    --purple: #aa49b7;
+    --purple-hover: #c774d2;
+    --red: #cf2a2a;
+    --red-hover: #f76565;
+    --blue:#3788e8;
+    --blue-hover:#7fbaff;
+}
+
+.wrapper-cards {
+    margin-top: 25px;
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    &__position {
+        margin-left: 0px;
+    }
+}
+.cards-body {
+    padding: 15px 15px;
+    max-width: 950px;
+    background-color: rgba(255, 255, 255, 0.75);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+    border-radius: 25px;
+}
+
+.card-box {
+    max-width: 250px;
+    padding: 15px;
+    border: 2px solid var(--purple);
+    border-radius: 15px;
+    background-color: #151515;
+}
+
+.card-title {
+    padding: 5px 0;
+    color: #fff;
+}
+
+.card-title, 
+.card-subtitle {
+    text-align: center;
+}
+
+.card-subtitle {
+    color: var(--purple);
+}
+
+.card-img-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 250px;
+    height: 150px;
+}
+
+.card-desc {
+    padding: 15px 0;
+    color: #fff;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.card-button-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+.card-button:hover {
+    background-color: var(--purple-hover);;
+}
+
+.card-box:nth-child(2) {
+    border: 2px solid var(--red);
+}
+
+.card-box:nth-child(2) .card-subtitle {
+    color: var(--red);
+}
+
+.card-box:nth-child(2) .card-button {
+    background-color: var(--red);
+}
+
+.card-box:nth-child(2) .card-button:hover {
+    background-color: var(--red-hover);
+}
+
+.card-box:nth-child(3) {
+    border: 2px solid #3788e8;
+}
+
+.card-box:nth-child(3) .card-subtitle {
+    color: #3788e8;;
+}
+
+.card-box:nth-child(3) .card-button {
+    background-color: #3788e8;
+}
+
+.card-box:nth-child(3) .card-button:hover {
+    background-color: var(--blue-hover);
+}

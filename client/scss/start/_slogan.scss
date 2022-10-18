@@ -1,0 +1,20 @@
+.slogan {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Caveat', cursive;  
+    font-size: 46px;  
+    text-align: center;
+    &__items {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        margin: 0 auto;
+        &:hover li {
+            transform: rotate(360deg);
+            color: $white;
+        }
+    }
+    &__link {
+        transition: 1s;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,74 @@
+@import '../global/vars';
+
+.wrapper-settings {
+    display: flex;
+	justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 280px;
+    transition: all 0.5s ease;
+    &_position {
+        margin-left: 0px;
+    }
+}
+
+.settings {
+    height: 340px;
+    background-color: rgba(255, 255, 255, 0.75); //
+    width: 500px;
+    &__form {
+        display: flex;
+        width: 325px;
+        height: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        &-login {
+            display: block;
+            width: 280px;
+            height: 50px;
+            margin: 25px auto 15px;
+            background:#fff; //
+            box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+            border: none;
+            font-size: 18px;
+            text-align: center;
+            outline: 0;
+        }
+        &-email {
+            display: block;
+            width: 280px;
+            height: 50px;
+            margin: 25px auto 15px;
+            background: #fff; //
+            box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+            border: none;
+            font-size: 18px;
+            text-align: center;
+            outline: 0;
+        }
+    }
+    &__checkbox {
+        margin-top: 15px;
+    }
+}
+
+.checkbox-block {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+    &__item {
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.85;
+        }
+    }
+    &__img_active {
+        border: 5px solid $blue-sidebar;
+    }
+}
